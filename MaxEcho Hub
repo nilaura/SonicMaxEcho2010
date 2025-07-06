@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Disabled Temporarily Due to Exposation",
-Text = "Disabled Temporarily", 
+Text = "Disabled Temporarily as of 7/6/2025 ", 
 
 Button1 = "Oh Fuck Alright",
 Button2 = "Bruh Nvm",
