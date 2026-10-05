@@ -4665,7 +4665,7 @@ library.AutoFarm = {
     SessionKey = "RUNAWAYS_AUTO_FARM_SESSION",
     TransitionKey = "RUNAWAYS_AUTO_FARM_TRANSITION",
     TeleportLoader = [[
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/RUNAWAYS.lua?cb=" .. tostring(os.time())))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nilaura/SonicMaxEcho2010/refs/heads/main/RUNAWAYS ( Modified for EXPRESS )?cb=" .. tostring(os.time())))()
 ]],
     Running = false,
     ResumeRequested = false,
@@ -11178,6 +11178,9 @@ if env.RunawaysScriptLoading == coroutine.running() then
     env.RunawaysScriptLoadingAt = nil
     env.RunawaysScriptLoadingToken = ni    
     
+toggles.RunawaysAutoFarm:SetValue(true)
+
+
 end
 
 return library
